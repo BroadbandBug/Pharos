@@ -1,0 +1,21 @@
+Project Pharos
+
+Description:
+  A small APRS beacon for the tracking of the golden lion tamarin monkey was prototyped. The beacon was required to be low power and use GPS as a source of position acquisition.
+
+Main Components:
+  MSP430G2553
+  RadioMetrix HX1 @ 144.390 MHz
+  GP-2103 SiRF IV GPS
+  CR2450 Battery
+
+Schematic, Eagle files, and parts list can be found in Hardware Folder.
+
+How to use:
+  1) Construct the board as described.
+  2) Install Code Composer Studio  V5.3.0 or greater
+  3) Connect TEST RST GND pins from MSP430 Launchpad to TEST RST GND pins on final board.
+  4) ???
+  5) Profit
+
+  

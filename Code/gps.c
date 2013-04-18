@@ -97,7 +97,7 @@ bool GPS_fix( char * gpgga_string){
     if( num_commas == 5 ){
       valid = (*(pcomma+1) == '1' || *(pcomma+1) == '2');
       *(pcomma+1)= '0';
-      return !valid;
+      return valid;
     }
   }
   return false;
